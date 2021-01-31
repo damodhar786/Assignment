@@ -1,0 +1,180 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+:root {
+    --primary-color: #2DD4BF;
+    --true-gray: #737373;
+    --off-white: #EEF2FF;
+}
+
+body {
+    /* font-family: 'Yeon Sung', cursive; */
+    font-family: 'Syne Mono', monospace;
+    /* font-size: x-large; */
+    margin: 0px;
+    
+}
+
+hr {
+    margin: 1.5rem 0rem;
+}
+
+/** Space **/
+
+/* .margin-md{
+    margin: 5rem;
+} */
+
+/** Containers **/
+
+.container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/** Link **/
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    border-radius: 0.5rem;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/** List **/
+
+ol {
+    padding-inline-start: 0px;
+}
+
+.list-no-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** Nav **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 0rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 0.5rem;
+}
+
+.navigation .nav-list {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/** Header **/
+
+.header {
+    padding: 2rem;
+}
+
+.header-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.header-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--true-gray);
+}
+
+.header .header-heading .heading-style {
+    color: var(--primary-color);
+}
+
+
+/** Section **/
+
+.section {
+    padding: 1rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.off-white {
+    background-color: var(--off-white);
+}
+
+/** Footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    /* color: white; */
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .link{
+    color: white;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: xx-large;
+}
+
+.fas {
+    font-family: "Font Awesome 5 free";
+    font-size: xx-large;
+}
+
+#portfolioButton, #logoutButton, #loginButton {
+    background-color: var(--header-footer-color);
+    border-radius: 1rem;
+    margin: 1rem 15rem;
+    padding: 0.5rem 0.5rem;
+    font-family: 'Kalam', cursive;
+    font-size: medium;
+}
